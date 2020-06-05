@@ -1,0 +1,20 @@
+theme = "haruka-simple-theme"
+baseURL = "https://shina346.github.io/haruka-simple-theme/"
+title = "Haruka simple Blog Theme"
+copyright = "ShinA346"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+PaginatePath = ""
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
