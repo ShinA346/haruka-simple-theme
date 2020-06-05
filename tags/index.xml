@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Haruka simple Blog Theme</title>
-    <link>http://example.org/tags/</link>
+    <link>https://shina346.github.io/haruka-simple-theme/tags/</link>
     <description>Recent content in Tags on Haruka simple Blog Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>ShinA346</copyright>
     <lastBuildDate>Fri, 05 Jun 2020 20:24:59 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shina346.github.io/haruka-simple-theme/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test</title>
-      <link>http://example.org/tags/test/</link>
+      <link>https://shina346.github.io/haruka-simple-theme/tags/test/</link>
       <pubDate>Fri, 05 Jun 2020 20:24:59 +0800</pubDate>
       
-      <guid>http://example.org/tags/test/</guid>
+      <guid>https://shina346.github.io/haruka-simple-theme/tags/test/</guid>
       <description></description>
     </item>
     

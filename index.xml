@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Haruka simple Blog Theme</title>
-    <link>http://example.org/</link>
+    <link>https://shina346.github.io/haruka-simple-theme/</link>
     <description>Recent content on Haruka simple Blog Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>ShinA346</copyright>
     <lastBuildDate>Fri, 05 Jun 2020 20:24:59 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shina346.github.io/haruka-simple-theme/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test_A</title>
-      <link>http://example.org/post/test_a/</link>
+      <link>https://shina346.github.io/haruka-simple-theme/post/test_a/</link>
       <pubDate>Fri, 05 Jun 2020 20:24:59 +0800</pubDate>
       
-      <guid>http://example.org/post/test_a/</guid>
+      <guid>https://shina346.github.io/haruka-simple-theme/post/test_a/</guid>
       <description>&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;</description>
     </item>
     
     <item>
       <title>Text_Test</title>
-      <link>http://example.org/post/text_test/</link>
+      <link>https://shina346.github.io/haruka-simple-theme/post/text_test/</link>
       <pubDate>Fri, 05 Jun 2020 19:02:53 +0800</pubDate>
       
-      <guid>http://example.org/post/text_test/</guid>
+      <guid>https://shina346.github.io/haruka-simple-theme/post/text_test/</guid>
       <description>中文测试 供社撤租惜纤和抖钳燥影鬼谚识碱盖奶壕爆凌钩棘躲清去靶壳曼毒妙构侯市眠堕嗓锤螺李欠栗融，弊喘耕扛刽愉孕反杏汁眼。
 溜咬窜套删扑口蚴氨峡，孜米大！罐矣永绪谨蝼芦斧坡部蹄昭弊爆洲为蕾隧办省谓摧营阳脸运亭残梨铬。桩厘石弟慨骚标压怀臂茅豫蚧忽记橘影讽乘釉锯边羞盅。撕纬氰型拳撞糊焰招童寄译猪过玉疑卡局于蟹逞蛛风湘历禁沼怠巩枢瘀颁属簧厘秘换郊纤硷埃救述锅坯叶葫撕珠奎阻脊橙锭酷岭翟旦挂针弦瞎皿签蛄翠批蒙跌掷用寒煮文即亮房泰医突朽向量树然慧兹阅嘿矿毂况狡泄丸火果唐幻悬躁严趣其松述练岩床膏憎被恰弹荧预组页匝裤扬府分达峡显签薛构恒赶躯！郎陋仰沃能我汉邀祥庇洞瘦钦荷冯书粳当将嘱！标乱晕笨奸浙入呀采匆微矣减卫恒烦烦年肾皂蛋盟玲婆妹适弯泌剧坪惨旺认峪镍畸陈傲邦鱼杠烷嫌蛮榴残考鲜白塌坡胺声微链柯拼领矾梗亦迄胫锥需蛙廷寸公耙腋剥？丰店鹏护烃锥博？贩佛却嘻撞枝缓岩怜鉴咱棍鳙致央亦喘椭秘渡供探染泉仍快蛛乞脂懒备伙颤侮夷漏问挺佳血祝！
 劝讥绵番翁托街豫烤词巾御亏万帽飞英灿蔡栋榆钾酚媒煞醒售鳄呈厚嘻宏瓜进荡野蕾早酵妻艇籼叔熟仰伍垄服皮跳系疡硕放性声济；块堵雌摔佛吃审狼绿共幕闸剑牺硝瞄柯肾蛮皆括墒强陪览逸犬如隶盅齐孙透宜鸟或古？印翠糙歪醉贝扼引怎亚喉巾凹莫华神书与萌鸟峡磅迄躲掏，进侮旋刻兼遇鄂轻！糠挽帐托兔软躁莎吵垃系妄春甩将被。
@@ -39,28 +39,28 @@ The International Olympic Committee (IOC) and Tokyo Games organizers were under 
     
     <item>
       <title>Test_C</title>
-      <link>http://example.org/post/test_c/</link>
+      <link>https://shina346.github.io/haruka-simple-theme/post/test_c/</link>
       <pubDate>Fri, 05 Jun 2020 18:43:19 +0800</pubDate>
       
-      <guid>http://example.org/post/test_c/</guid>
+      <guid>https://shina346.github.io/haruka-simple-theme/post/test_c/</guid>
       <description>&lt;h3 id=&#34;翻页测试&#34;&gt;翻页测试&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>Test_B</title>
-      <link>http://example.org/post/test_b/</link>
+      <link>https://shina346.github.io/haruka-simple-theme/post/test_b/</link>
       <pubDate>Fri, 05 Jun 2020 18:43:16 +0800</pubDate>
       
-      <guid>http://example.org/post/test_b/</guid>
+      <guid>https://shina346.github.io/haruka-simple-theme/post/test_b/</guid>
       <description>&lt;h3 id=&#34;翻页测试&#34;&gt;翻页测试&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://example.org/about/</link>
+      <link>https://shina346.github.io/haruka-simple-theme/about/</link>
       <pubDate>Thu, 04 Jun 2020 23:19:51 +0800</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>https://shina346.github.io/haruka-simple-theme/about/</guid>
       <description>单页测试 单页测试 单页测试 单页测试</description>
     </item>
     
