@@ -6,7 +6,7 @@ version 0.1v
 
 ### Demo
 
-TODO
+https://shina346.github.io/haruka-simple-theme/
 
 ## TODO
 - footer bug
