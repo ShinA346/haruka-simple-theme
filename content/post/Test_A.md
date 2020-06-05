@@ -29,7 +29,7 @@ int main(void)
 
 #### image Test
 
-![image](/img/Karen_TD_SSR4+.png)
+![image](/haruka-simple-theme/img/Karen_TD_SSR4+.png)
 
 #### youtube video Test
 
