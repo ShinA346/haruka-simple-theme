@@ -1,0 +1,41 @@
+{{ partial "header.html" . }}
+{{ $paginator := .Paginate ( where site.RegularPages "Type" "in" site.Params.mainSections ) }}
+{{ if eq .Kind "taxonomy" }}
+  {{ $paginator = .Data }}
+{{ end }}
+<div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
+  <main class="mdl-layout__content">
+    <div class="demo-blog__posts mdl-grid">
+      {{ range $paginator.Pages }}
+      <div class="mdl-card on-the-road-again mdl-cell mdl-cell--12-col">
+        <div class="mdl-card__media mdl-color-text--grey-50 mdl-color--blue-grey-900">
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <span>{{.Date.Format "January 2, 2006"}}</span>
+          <div class="section-spacer"></div>
+          <div>
+            {{ range .Params.categories }}
+            <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}/">{{ . }}</a>
+            {{ end }}
+            {{ range .Params.tags }}
+            <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}/">#{{ . }}</a>
+            {{ end }}
+          </div>
+        </div>
+        <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+          {{ .Summary | plainify | htmlUnescape }}
+        </div>
+      </div>
+      {{ end }}
+        <nav>
+          <ul class="mdl-list mdl-grid">
+          {{ range $paginator.Pagers }}
+            <li class="mdl-list__item mdl-cell mdl-cell--1-col {{ if eq $paginator.PageNumber .PageNumber }}active{{ end }}">
+              <a href="{{ .URL }}">{{.PageNumber}}</a>
+            </li>
+          {{ end }}
+          </ul>
+        </nav>
+    </div>
+  </main>
+</div>
+{{ partial "footer.html" . }}

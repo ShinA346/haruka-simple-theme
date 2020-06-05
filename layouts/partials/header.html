@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ .Site.BaseURL }}css/ahego.css" rel="stylesheet">     
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/material.min.css">
+    <script src="{{ .Site.BaseURL }}css/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <div class="mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--white mdl-color-text--grey-800">
+        <div class="mdl-layout__header-row">
+          <a href="{{ .Site.BaseURL }}" class="mdl-layout-title mdl-color-text--blue-grey-900">{{ .Site.Title }}</a>
+          <div class="mdl-layout-spacer"></div>
+          <nav class="mdl-navigation">
+            {{ range .Site.Menus.main }}
+            <a class="mdl-navigation__link mdl-color-text--blue-grey-900" href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+          </nav>
+        </div>
+      </header>
+    </div>

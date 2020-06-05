@@ -1,0 +1,47 @@
+{{ partial "header.html" . }}
+  <div class="demo-blog demo-blog--blogpost mdl-layout mdl-js-layout has-drawer is-upgraded">
+    <main class="mdl-layout__content">
+      <div class="demo-blog__posts mdl-grid">
+        <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col ">
+          <div class="mdl-card__media mdl-color-text--grey-50 mdl-color--blue-grey-900">
+            <h3>{{ .Title }}</h3>
+            <span>{{.Date.Format "January 2, 2006"}}</span>
+            <div class="section-spacer"></div>
+            <div>
+              {{ range .Params.categories }}
+              <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}/">{{ . }}</a>
+            {{ end }}
+            {{ range .Params.tags }}
+            <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}/">#{{ . }}</a>
+            {{ end }} -->
+            </div>
+          </div>
+          <div class="mdl-color-text--grey-700 mdl-card__actions">
+            <p>
+              {{ .Content }}
+            </p>
+          </div>
+        </div>
+        <nav class="demo-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+          {{ with .PrevInSection }}
+          <a href="{{ .Permalink }}" class="demo-nav__button mdl-color-text--blue-grey-900">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+              <i class="material-icons">arrow_back</i>
+            </button>
+            {{ .Title }}
+          </a>
+          {{ end }}
+          <div class="section-spacer"></div>
+            {{ with .NextInSection }}
+            <a href="{{ .Permalink }}" class="demo-nav__button mdl-color-text--blue-grey-900">
+            {{ .Title }}
+            {{ end }}
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+              <i class="material-icons">arrow_forward</i>
+            </button>
+          </a>
+        </nav>
+      </div>
+    </main>
+  </div>
+{{ partial "footer.html" . }}
