@@ -10,10 +10,10 @@
             <div>
               {{ range .Params.categories }}
               <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}/">{{ . }}</a>
-            {{ end }}
-            {{ range .Params.tags }}
-            <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}/">#{{ . }}</a>
-            {{ end }} -->
+              {{ end }}
+              {{ range .Params.tags }}
+              <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}/">#{{ . }}</a>
+              {{ end }} -->
             </div>
           </div>
           <div class="mdl-color-text--grey-700 mdl-card__actions">
@@ -42,6 +42,5 @@
           </a>
         </nav>
       </div>
-    </main>
-  </div>
+
 {{ partial "footer.html" . }}

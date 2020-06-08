@@ -1,7 +1,7 @@
 name = "haruka-simple-theme"
 license = "MIT"
-min_version = "0.1"
+min_version = "0.2"
 
 [author]
   name = "ShinA346"
-  homepage = "https://ncov.pw"
+  homepage = "https://github.com/ShinA346"

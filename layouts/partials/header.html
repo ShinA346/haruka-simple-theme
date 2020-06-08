@@ -9,17 +9,29 @@
     <script src="{{ .Site.BaseURL }}css/material.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
+<style>
+
+</style>
+  
   <body>
-    <div class="mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--white mdl-color-text--grey-800">
-        <div class="mdl-layout__header-row">
-          <a href="{{ .Site.BaseURL }}" class="mdl-layout-title mdl-color-text--blue-grey-900">{{ .Site.Title }}</a>
+    <div class="mdl-layout mdl-layout--fixed-header mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--blue-grey-900">
+        <div class="mdl-layout__header-row mdl-color--blue-grey-900">
+          <a href="{{ .Site.BaseURL }}" class="mdl-layout-title mdl-color-text--grey-50">{{ .Site.Title }}</a>
           <div class="mdl-layout-spacer"></div>
-          <nav class="mdl-navigation">
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
             {{ range .Site.Menus.main }}
-            <a class="mdl-navigation__link mdl-color-text--blue-grey-900" href="{{ .URL }}">{{ .Name }}</a>
+            <a class="mdl-navigation__link mdl-color-text--grey-50" href="{{ .URL }}">{{ .Name }}</a>
             {{ end }}
           </nav>
         </div>
       </header>
+      <div class="mdl-layout__drawer mdl-layout--small-screen-only mdl-color--blue-grey-900">
+        <span class="mdl-layout-title mdl-color-text--grey-50">Menu</span>
+        <nav class="mdl-navigation">
+          {{ range .Site.Menus.main }}
+          <a class="mdl-navigation__link mdl-color-text--grey-50" href="{{ .URL }}">{{ .Name }}</a>
+          {{ end }}
+        </nav>
+      </div>
     </div>
