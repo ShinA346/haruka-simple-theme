@@ -9,27 +9,46 @@
     <script src="https://shina346.github.io/haruka-simple-theme/css/material.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
+<style>
+
+</style>
+  
   <body>
-    <div class="mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--white mdl-color-text--grey-800">
-        <div class="mdl-layout__header-row">
-          <a href="https://shina346.github.io/haruka-simple-theme/" class="mdl-layout-title mdl-color-text--blue-grey-900">Haruka simple Blog Theme</a>
+    <div class="mdl-layout mdl-layout--fixed-header mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--blue-grey-900">
+        <div class="mdl-layout__header-row mdl-color--blue-grey-900">
+          <a href="https://shina346.github.io/haruka-simple-theme/" class="mdl-layout-title mdl-color-text--grey-50">Haruka simple Blog Theme</a>
           <div class="mdl-layout-spacer"></div>
-          <nav class="mdl-navigation">
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
             
-            <a class="mdl-navigation__link mdl-color-text--blue-grey-900" href="/haruka-simple-theme/about/">About</a>
+            <a class="mdl-navigation__link mdl-color-text--grey-50" href="/haruka-simple-theme/about/">About</a>
+            
+            <a class="mdl-navigation__link mdl-color-text--grey-50" href="/haruka-simple-theme/archives/">Archive</a>
+            
+            <a class="mdl-navigation__link mdl-color-text--grey-50" href="/haruka-simple-theme/index.xml">Rss</a>
             
           </nav>
         </div>
       </header>
+      <div class="mdl-layout__drawer mdl-layout--small-screen-only mdl-color--blue-grey-900">
+        <span class="mdl-layout-title mdl-color-text--grey-50">Menu</span>
+        <nav class="mdl-navigation">
+          
+          <a class="mdl-navigation__link mdl-color-text--grey-50" href="/haruka-simple-theme/about/">About</a>
+          
+          <a class="mdl-navigation__link mdl-color-text--grey-50" href="/haruka-simple-theme/archives/">Archive</a>
+          
+          <a class="mdl-navigation__link mdl-color-text--grey-50" href="/haruka-simple-theme/index.xml">Rss</a>
+          
+        </nav>
+      </div>
     </div>
-
 
 <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
   <main class="mdl-layout__content">
     <div class="demo-blog__posts mdl-grid">
       
-      <div class="mdl-card on-the-road-again mdl-cell mdl-cell--12-col">
+      <div class="mdl-card on-the-road-again mdl-cell mdl-cell--12-col mdl-shadow--4dp">
         <div class="mdl-card__media mdl-color-text--grey-50 mdl-color--blue-grey-900">
           <h3><a href="https://shina346.github.io/haruka-simple-theme/post/test_b/">Test_B</a></h3>
           <span>June 5, 2020</span>
@@ -43,7 +62,7 @@
             
           </div>
         </div>
-        <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+        <div class="mdl-color-text--grey-700 mdl-card__actions">
           翻页测试
         </div>
       </div>
@@ -52,25 +71,32 @@
           <ul class="mdl-list mdl-grid">
           
             <li class="mdl-list__item mdl-cell mdl-cell--1-col ">
-              <a href="/haruka-simple-theme/post/">1</a>
+              <a class="mdl-color-text--blue-grey-900" href="/haruka-simple-theme/post/">1</a>
             </li>
           
             <li class="mdl-list__item mdl-cell mdl-cell--1-col active">
-              <a href="/haruka-simple-theme/post/2/">2</a>
+              <a class="mdl-color-text--blue-grey-900" href="/haruka-simple-theme/post/2/">2</a>
             </li>
           
           </ul>
         </nav>
     </div>
-  </main>
-</div>
-<footer class="mdl-mini-footer mdl-color-text--red-100">
-  <div class="mdl-mini-footer__left-section">
-<ul class="mdl-mini-footer__link-list"> 
-  <li><a href="https://shina346.github.io/haruka-simple-theme/">© 2020 copyright ShinA346.</a></li>
-</ul>
 
+<footer class="mdl-mini-footer mdl-color--blue-grey-900">
+  <div class="mdl-mini-footer__left-section">
+    <ul class="mdl-mini-footer__link-list">
+      <li>
+        <script type="text/javascript">
+              copyright=new Date();                
+              update=copyright.getFullYear();
+              document.write("&copy; Copyright 2020-"+ update + "<a href='https:\/\/shina346.github.io\/haruka-simple-theme\/'> Shina346. </a>"+"| Powered by "+"<a href='https://gohugo.io/'>Hugo </a>"+"& theme "+ "<a href='https://github.com/ShinA346/haruka-simple-theme'>Haruka.</a>");
+       </script>
+      </li>
+    </ul>
+  </div>
 </footer>
+</main>
+</div>
 </body>
 </html>
 

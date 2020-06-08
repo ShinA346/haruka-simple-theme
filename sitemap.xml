@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shina346.github.io/haruka-simple-theme/categories/</loc>
-    <lastmod>2020-06-05T20:24:59+08:00</lastmod>
+    <loc>https://shina346.github.io/haruka-simple-theme/archives/</loc>
+    <lastmod>2020-06-08T13:10:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shina346.github.io/haruka-simple-theme/archives/archives/</loc>
+    <lastmod>2020-06-08T13:10:36+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://shina346.github.io/haruka-simple-theme/</loc>
+    <lastmod>2020-06-08T13:10:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shina346.github.io/haruka-simple-theme/categories/</loc>
     <lastmod>2020-06-05T20:24:59+08:00</lastmod>
   </url>
   
